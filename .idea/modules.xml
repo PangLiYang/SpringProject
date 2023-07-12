@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/factoryTest/factoryTest.iml" filepath="$PROJECT_DIR$/factoryTest/factoryTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/springProject.iml" filepath="$PROJECT_DIR$/springProject.iml" />
     </modules>
   </component>
