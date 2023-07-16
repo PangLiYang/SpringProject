@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d532b74d-9fa3-4efa-9662-8e0e24e1e7e1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/example/dynamicProxy/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/dynamicProxy/MainTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/dynamicProxy/MainTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/dynamicProxy/T1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/dynamicProxy/Target.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/staticProxy/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/staticProxy/MainTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/staticProxy/Proxy1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/staticProxy/T1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/staticProxy/Target.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-01/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-01/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-01/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-01/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-01/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-01/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-01/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/factoryTest.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/r05323046/factory01/Item01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/factory01/Item01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/r05323046/factory01/Item02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/factory01/Item02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/r05323046/factory01/ItemFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/factory01/ItemFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/r05323046/factory01/ItemFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/factory01/ItemFactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/r05323046/factory01/ItemTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/factory01/ItemTemplate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/r05323046/factory02/AbstractItemFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/factory02/AbstractItemFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/r05323046/factory02/AbstractItemFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/factory02/AbstractItemFactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/r05323046/factory02/Factory01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/factory02/Factory01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/r05323046/factory02/Factory02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/factory02/Factory02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/r05323046/factory02/Item01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/factory02/Item01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/r05323046/factory02/Item02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/factory02/Item02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/r05323046/factory02/ItemTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/factory02/ItemTemplate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/r05323046/factory03/AbstractFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/factory03/AbstractFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/r05323046/factory03/AbstractFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/factory03/AbstractFactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/r05323046/factory03/AbstractItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/factory03/AbstractItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/r05323046/factory03/AbstractSupport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/factory03/AbstractSupport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/r05323046/factory03/Factory01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/factory03/Factory01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/r05323046/factory03/Factory02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/factory03/Factory02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/r05323046/factory03/Item01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/factory03/Item01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/r05323046/factory03/Item01Support.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/factory03/Item01Support.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/r05323046/factory03/Item02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/factory03/Item02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/r05323046/factory03/Item02Support.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/factory03/Item02Support.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2SdFyvgZEEe8ezGU8XTtw4bG7Z0" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/IdeaProjects/springProject/spring-01",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d532b74d-9fa3-4efa-9662-8e0e24e1e7e1" name="Changes" comment="" />
+      <created>1689468809209</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1689468809209</updated>
+      <workItem from="1689468810188" duration="35000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
