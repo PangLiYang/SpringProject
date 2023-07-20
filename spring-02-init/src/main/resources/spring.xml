@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="studentService"
+          class="org.example.init.service.StudentServiceImpl"
+          lazy-init="true"
+          scope="singleton"
+          init-method="init"
+          destroy-method="destroy"
+    />
+
+<!--    instance factory-->
+<!--    <bean id="ssFactory" class="org.example.init.factory.FactoryBean"/>-->
+<!--    <bean id="studentService" factory-bean="ssFactory" factory-method="createInstance"/>-->
+
+<!--    static factory-->
+<!--    <bean id ="ssFactory" class="org.example.init.factory_static.StaticFactoryBean" factory-method="createInstance"/>-->
+
+<!--    factory-bean factory-->
+<!--    <bean id="ssFactory" class="org.example.init.factory_bean.BeanFactoryBean"/>-->
+</beans>

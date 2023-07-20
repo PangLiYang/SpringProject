@@ -10,4 +10,12 @@ public class StudentServiceImpl implements StudentService {
     public void study() {
         System.out.println("Studying...");
     }
+
+    public void init() {
+        System.out.println("Init method!");
+    }
+
+    public void destroy() {
+        System.out.println("Destroy method!");
+    }
 }
