@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<!--    Setter Injection 1-->
+    <bean id="userService"
+          class="org.example.di.xml.service.UserServiceImpl">
+        <!--  name -> variable in the class (Actually, it identifies the setter name!)
+              ref -> xml.id  -->
+        <property name="userDao" ref="userDao"/>
+    </bean>
+
+<!--    Setter Injection 2, based on class. Only works if there is ony one impl class-->
+<!--    <bean id="userService"-->
+<!--          class="org.example.di.xml.service.UserServiceImpl"-->
+<!--          autowire="byType"-->
+<!--    />-->
+
+<!--    Setter Injection 3, based on name. Need to match xml id and impl variable-->
+<!--    <bean id="userService"-->
+<!--          class="org.example.di.xml.service.UserServiceImpl"-->
+<!--          autowire="byName"-->
+<!--    />-->
+
+<!--    Constructor injection-->
+<!--    <bean id="userService"-->
+<!--          class="org.example.di.xml.service.UserServiceImpl">-->
+<!--        <constructor-arg name="userDao" ref="userDao"/>-->
+<!--    </bean>-->
+
+
+<!--    <bean id="userDaoId" class="org.example.di.xml.dao.UserDaoImpl"/>-->
+    <bean id="userDao" class="org.example.di.xml.dao.UserDaoImpl"/>
+</beans>
