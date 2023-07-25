@@ -1,22 +1,25 @@
 package org.example.di.annotation.service;
 
+import jakarta.annotation.Resource;
+import jakarta.inject.Inject;
 import org.example.di.annotation.dao.UserDao;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 
 @Service("userService")
 public class UserServiceImpl implements UserService{
-    private UserDao userDao;
 
-    public UserServiceImpl(UserDao userDao) {
-        this.userDao = userDao;
-    }
+//    @Autowired
+//    @Qualifier("userDao")
+
+//    @Inject
+
+    @Resource
+    private UserDao userDao;
 
     @Override
     public void addUser() {
         userDao.addUser();
     }
-
-//    public void setUserDao(UserDao userDao) {
-//        this.userDao = userDao;
-//    }
 }

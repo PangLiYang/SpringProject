@@ -9,6 +9,9 @@
         <option value="$PROJECT_DIR$/../spring-02-init/pom.xml" />
         <option value="$PROJECT_DIR$/../spring-03-DI-xml/pom.xml" />
         <option value="$PROJECT_DIR$/../spring-04-DI-annotation/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring-05-cyclic/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring-06-annotation/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring-07-lifecycle/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
