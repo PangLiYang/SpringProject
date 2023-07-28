@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Configuration;
 @ComponentScan("org.example")
 public class HumanConfiguration {
 
-    @Bean(name = "human", initMethod = "init", destroyMethod = "destroy")
+    @Bean(name = "human", initMethod = "init", destroyMethod = "selfDestroy")
     public Human humanInstance() {
         return new Human();
     }

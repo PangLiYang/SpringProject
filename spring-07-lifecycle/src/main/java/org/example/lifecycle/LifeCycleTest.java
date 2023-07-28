@@ -9,8 +9,7 @@ public class LifeCycleTest {
         AnnotationConfigApplicationContext context =
                 new AnnotationConfigApplicationContext(HumanConfiguration.class);
         Human human = context.getBean("human", Human.class);
-        System.out.println("4_using: " + human);
-
+        System.out.println("9. using: " + human);
         // Close the container
         context.close();
     }

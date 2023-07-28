@@ -12,6 +12,7 @@
         <option value="$PROJECT_DIR$/../spring-05-cyclic/pom.xml" />
         <option value="$PROJECT_DIR$/../spring-06-annotation/pom.xml" />
         <option value="$PROJECT_DIR$/../spring-07-lifecycle/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring-08-problem/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
