@@ -15,10 +15,14 @@ public class MainTest {
         // Proxy target
         UserService userService = context.getBean("userService", UserService.class);
         // Use proxy!
-        UserService userServiceProxy = (UserService) Proxy.newProxyInstance(userService.getClass().getClassLoader(),
-                userService.getClass().getInterfaces(),
-                new MyInvocationHandler(userService));
+//        UserService userServiceProxy = (UserService) Proxy.newProxyInstance(userService.getClass().getClassLoader(),
+//                userService.getClass().getInterfaces(),
 
-        userServiceProxy.addUser();
+//                new MyInvocationHandler(userService));
+
+//        userServiceProxy.addUser();
+
+        // Use processor
+        userService.addUser();
     }
 }
