@@ -6,8 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="spring-09-aop_annotation" />
+        <module name="spring-10-aop_xml" />
+        <module name="spring-11-intro" />
+        <module name="spring-12-tansaction" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="spring-09-aop_annotation (1)" target="20" />
+      <module name="spring-09-aop_annotation (2)" target="20" />
+      <module name="spring-11-introduction" target="20" />
+    </bytecodeTargetLevel>
   </component>
 </project>
