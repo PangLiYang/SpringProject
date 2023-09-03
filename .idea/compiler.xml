@@ -9,6 +9,7 @@
         <module name="spring-10-aop_xml" />
         <module name="spring-11-intro" />
         <module name="spring-12-tansaction" />
+        <module name="spring-13-i18n" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

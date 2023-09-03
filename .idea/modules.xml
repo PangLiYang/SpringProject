@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/factoryTest/factoryTest.iml" filepath="$PROJECT_DIR$/factoryTest/factoryTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-01.iml" filepath="$PROJECT_DIR$/spring-01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-10-aop_xml.iml" filepath="$PROJECT_DIR$/spring-10-aop_xml.iml" />
       <module fileurl="file://$PROJECT_DIR$/springProject.iml" filepath="$PROJECT_DIR$/springProject.iml" />
     </modules>
   </component>

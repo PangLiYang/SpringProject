@@ -11,7 +11,7 @@ public class TxTest {
                 new AnnotationConfigApplicationContext(DBConfiguration.class);
         UserService userService = context.getBean("userServiceImpl", UserService.class);
 
-        User james = new User("Emily");
-        userService.addUser(james);
+        User user = new User("Johnson");
+        userService.addUser(user);
     }
 }
